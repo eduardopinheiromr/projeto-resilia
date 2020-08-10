@@ -244,6 +244,32 @@ h3{
 
 /* Formulário */
 
+.btn-form{
+  margin-top: 145px;
+  margin-bottom: 133px;
+  width: 947px;
+  height: 40px;
+  background: #FAD000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.form-control{
+  width: 491px;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+  border-style: solid;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 0 0!important;
+  border-width: 0 0 1px 0;!important;
+  outline: 0!important;
+}
+
 /* Footer */
 
 footer{
