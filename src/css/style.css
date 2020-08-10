@@ -1,0 +1,263 @@
+/* Configurações de scroll e scrollbar */
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FAD000;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #412856;
+}
+::-webkit-scrollbar-thumb {
+  background: #412856;
+}
+
+/* Paleta de cores  */
+
+.txt-black-company{
+  color: #000000!important;
+}
+
+.txt-yellow-company{
+  color: #FAD000!important;
+}
+
+.txt-white-company{
+  color: #FFFFFF!important;
+}
+
+.bg-black-company{
+  background-color: #2F2E2E!important;
+}
+
+.bg-yellow-company{
+  background-color: #FAD000!important;
+}
+
+.bg-yellow-opacity-1{
+  opacity: 0.5;
+  background-color: #FCF5CD!important;
+}
+
+.bg-btn-yellow{
+  background-color: #FDF733!important;
+}
+
+.bg-btn-yellow:hover{
+  background-color: #000000!important;
+  color: #FDF733!important;
+}
+
+.bg-content{
+  background-color: #FCFCF7!important;
+}
+
+.bg-footer{
+  background-color: #000000!important;
+}
+
+/* Header */
+
+header{
+  height: 79px;
+}
+
+.navbar-nav li a{
+  color: #FFFFFF!important;
+}
+
+.dropdown-menu{
+  border: none;
+  background: black;
+}
+
+.dropdown-item:hover{
+  color: black!important;
+  background: #FAD000;
+}
+
+.btn-subscribe-header{
+  width: 110px;
+  height: 31px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+/* Conteúdo geral */
+
+.btn-subscribe{
+  width: 202px;
+  height: 49px;
+}
+
+/* Banner principal */
+
+.banner-principal{
+  min-height: 823px;
+  background-image: url('../images/banner-principal.jpg');
+  background-repeat: no-repeat;
+  padding: 0!important;
+  background-size: cover;
+  /* background-size: 100%; */
+}
+
+.yellow-mask{
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(90deg, rgba(250, 208, 0, 0.7) 50%, rgba(250, 208, 0, 0.7) 50%);
+}
+
+.h1-banner{
+  padding-top: 77px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 55px;
+  line-height: 66px;
+  /* or 120% */
+
+  text-align: center;
+}
+
+.p-banner{
+  margin-top: 35px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.btn-banner{
+  margin-top: 200px;
+  width: 202px;
+  height: 49px;
+}
+
+/* Como Funciona */
+
+.como-funciona .col-md-6{
+  max-width: 320px;
+}
+
+.col-img{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.col-img-invert{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-text{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.col-text-invert{
+  display: flex;
+  text-align: right;
+  max-width: 320px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h3{
+  font-family: Raleway;
+  color: #2F2E2E;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.p-comofunciona{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #605E5E;
+}
+
+/* Como você aprende */
+
+.transformando .col-md-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transformando p{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #2F2E2E;
+}
+
+/* Para quem somos */
+
+.para-quem-somos .col-md-6{
+  max-width: 360px;
+}
+
+/* O que falam de nós */
+
+.o-que-falam .col-md-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #2F2E2E;
+}
+
+/* Formulário */
+
+/* Footer */
+
+footer{
+  height: 80px;
+  max-width: 100%;
+  background: black;
+}
+
+.copyright{
+  height: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+}
