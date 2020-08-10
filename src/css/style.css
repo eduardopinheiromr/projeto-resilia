@@ -70,6 +70,13 @@ header{
   color: #FFFFFF!important;
 }
 
+.nav-link{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 50px;
+}
 .dropdown-menu{
   border: none;
   background: black;
