@@ -242,6 +242,34 @@ h3{
   color: #2F2E2E;
 }
 
+/* O que nossos alunos falam */
+
+.carousel-item{
+  height: 500px;
+}
+
+.avatar-carousel{
+  align-self: flex-start;
+  margin-top: 15px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 7px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-text{
+  padding-left: 50px;
+  width: 489px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-item-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Formulário */
 
 .btn-form{
