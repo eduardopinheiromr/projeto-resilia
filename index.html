@@ -19,7 +19,7 @@
 <body>
 
 	<!-- INICIO HEADER -->
-	<header class="bg-black-company d-flex align-items-center justify-content-center">
+	<header class="bg-black-company d-flex align-items-center justify-content-center fixed-top">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#">
 				<img src="src/images/logo-header.svg">
@@ -35,13 +35,13 @@
 						<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Como funciona</a>
+						<a class="nav-link" href="#como-funciona">Como funciona</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Metodologia</a>
+						<a class="nav-link" href="#metodologia">Metodologia</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Para quem?</a>
+						<a class="nav-link" href="#para-quem">Para quem?</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Sobre</a>
@@ -94,9 +94,11 @@
 								mundo: <strong>tecnologia</strong>.
 							</p>
 							<div class="w-100 d-flex justify-content-center">
-								<button type="button" class="btn btn-md bg-btn-yellow btn-banner txt-black-company">
-									Saiba mais
-								</button>
+								<a href="#como-funciona">
+									<button type="button" class="btn btn-md bg-btn-yellow btn-banner txt-black-company">
+										Saiba mais
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -104,7 +106,7 @@
 				<!-- FIM DO BANNER PRINCIPAL -->
 
 				<!-- INICIO COMO FUNCIONA -->
-				<div class="row">
+				<div class="row" id="como-funciona">
 					<div class="col-md-12 bg-content">
 						<h3 class="text-center mt-5 pt-5">
 							Como funciona
@@ -165,7 +167,7 @@
 				<!-- FIM COMO FUNCIONA -->
 
 				<!-- INICIO TRANSFORMANDO -->
-				<div class="row pb-5">
+				<div class="row pb-5" id="metodologia">
 					<div class="col-md-12">
 						<h3 class="text-center pt-5 pb-5">
 							Transformando a forma como<br> você aprende!
@@ -209,7 +211,7 @@
 				<!-- FIM TRANSFORMANDO -->
 
 				<!-- INICIO PARA QUEM SOMOS -->
-				<div class="row">
+				<div class="row" id="para-quem">
 					<div class="col-md-12 pt-5">
 						<h3>
 							Para quem somos?

@@ -100,6 +100,7 @@ header{
 /* Banner principal */
 
 .banner-principal{
+  margin-top: 79px;
   min-height: 823px;
   background-image: url('../images/banner-principal.jpg');
   background-repeat: no-repeat;
